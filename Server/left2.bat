@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" screen:// :screen-fps=10 :screen-width=1920 :screen-caching=100 :screen-mouse-image=Mouse_pointer_small.png --sout="#transcode{vcodec=theo,vb=800,scale=0.5,acodec=none}:http{mux=ogg,dst=:8081/" --sout-keep 
